@@ -51,6 +51,16 @@ class TodoListViewController: UITableViewController {
         return cell
     }
     
+    // MARK: - Enable Swipe to Delete
+
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            context.delete(itemArray[indexPath.row]) // Delete from Core Data
+            itemArray.remove(at: indexPath.row) // Remove from array
+            saveItems() // Save changes and reload
+        }
+    }
+    
     //MARK: - TableView Delegate Methods
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
