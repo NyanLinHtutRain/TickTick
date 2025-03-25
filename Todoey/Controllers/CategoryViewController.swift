@@ -28,15 +28,20 @@ class CategoryViewController: UITableViewController {
         
         cell.textLabel?.text = categories[indexPath.row].name
         
-        // Generate a gradient color based on index
-        let baseColor = UIColor.systemBlue // Change this to any base color you prefer
-        let numberOfCategories = categories.count
-        let fadeFactor = CGFloat(indexPath.row) / CGFloat(max(numberOfCategories, 1)) // Avoid division by zero
+        // Define your color cycle
+        let colors: [UIColor] = [
+            UIColor(red: 86/255, green: 2/255, blue: 31/255, alpha: 1.0),  // #56021F
+            UIColor(red: 125/255, green: 28/255, blue: 74/255, alpha: 1.0), // #7D1C4A
+            UIColor(red: 209/255, green: 125/255, blue: 152/255, alpha: 1.0), // #D17D98
+            UIColor(red: 244/255, green: 204/255, blue: 233/255, alpha: 1.0)  // #F4CCE9
+        ]
         
-        cell.backgroundColor = baseColor.withAlphaComponent(1.0 - (fadeFactor * 0.5)) // Adjust the factor for desired effect
+        // Assign color based on the index (cycling through 4 colors)
+        cell.backgroundColor = colors[indexPath.row % colors.count]
         
         return cell
     }
+
 
     
     //MARK: - TableView Delegate Methods
