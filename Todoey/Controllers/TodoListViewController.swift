@@ -43,6 +43,15 @@ class TodoListViewController: UITableViewController {
         
         cell.accessoryType = item.done ? .checkmark : .none
         
+        let colors: [UIColor] = [
+            UIColor(red: 86/255, green: 2/255, blue: 31/255, alpha: 1.0), // #56021F
+            UIColor(red: 125/255, green: 28/255, blue: 74/255, alpha: 1.0), // #7D1C4A
+            UIColor(red: 209/255, green: 125/255, blue: 152/255, alpha: 1.0), // #D17D98
+            UIColor(red: 244/255, green: 204/255, blue: 233/255, alpha: 1.0)  // #F4CCE9
+        ]
+        // Cycle through colors using modulo operator
+        cell.backgroundColor = colors[indexPath.row % colors.count]
+        
         return cell
     }
     
