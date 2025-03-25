@@ -55,6 +55,16 @@ class CategoryViewController: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+            if editingStyle == .delete {
+                // Delete the category from Core Data
+                context.delete(categories[indexPath.row])
+                categories.remove(at: indexPath.row)
+                
+                saveCategories() // Save changes and reload the table view
+            }
+        }
+    
     //MARK: - Data Manipulation Methods
     
     func saveCategories() {
