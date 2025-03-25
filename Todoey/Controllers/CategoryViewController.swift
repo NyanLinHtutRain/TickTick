@@ -28,8 +28,14 @@ class CategoryViewController: UITableViewController {
         
         cell.textLabel?.text = categories[indexPath.row].name
         
-        return cell
+        // Generate a gradient color based on index
+        let baseColor = UIColor.systemBlue // Change this to any base color you prefer
+        let numberOfCategories = categories.count
+        let fadeFactor = CGFloat(indexPath.row) / CGFloat(max(numberOfCategories, 1)) // Avoid division by zero
         
+        cell.backgroundColor = baseColor.withAlphaComponent(1.0 - (fadeFactor * 0.5)) // Adjust the factor for desired effect
+        
+        return cell
     }
 
     
