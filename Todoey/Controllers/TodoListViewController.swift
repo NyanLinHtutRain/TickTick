@@ -35,6 +35,9 @@ class TodoListViewController: UITableViewController {
         
         cell.textLabel?.text = item.title
         
+        // Set text color to white
+        cell.textLabel?.textColor = .white
+        
         //Ternary operator ==>
         // value = condition ? valueIfTrue : valueIfFalse
         
