@@ -1,11 +1,3 @@
-//
-//  CategoryViewController.swift
-//  Todoey
-//
-//  Created by Angela Yu on 01/12/2017.
-//  Copyright © 2017 Angela Yu. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
