@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9AD0432D92F58400B4FD65 /* MiniAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AD0422D92F57700B4FD65 /* MiniAppsViewController.swift */; };
 		AD0968AA1FD17AC20008922D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0968A91FD17AC20008922D /* CategoryViewController.swift */; };
 		AD3197CC1FD0213E00995E07 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD3197CA1FD0213E00995E07 /* DataModel.xcdatamodeld */; };
 		AD9E197B1FBDA0FD009CCEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E197A1FBDA0FD009CCEEA /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E9AD0422D92F57700B4FD65 /* MiniAppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppsViewController.swift; sourceTree = "<group>"; };
 		AD0968A91FD17AC20008922D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		AD3197CB1FD0213E00995E07 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		AD9E19771FBDA0FD009CCEEA /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,7 @@
 		AD79462C1FCED9070031D617 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8E9AD0422D92F57700B4FD65 /* MiniAppsViewController.swift */,
 				AD0968A91FD17AC20008922D /* CategoryViewController.swift */,
 				AD9E197C1FBDA0FD009CCEEA /* TodoListViewController.swift */,
 			);
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0968AA1FD17AC20008922D /* CategoryViewController.swift in Sources */,
+				8E9AD0432D92F58400B4FD65 /* MiniAppsViewController.swift in Sources */,
 				AD9E197D1FBDA0FD009CCEEA /* TodoListViewController.swift in Sources */,
 				AD3197CC1FD0213E00995E07 /* DataModel.xcdatamodeld in Sources */,
 				AD9E197B1FBDA0FD009CCEEA /* AppDelegate.swift in Sources */,

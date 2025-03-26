@@ -10,6 +10,9 @@ class CategoryViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadCategories()
+        
+        // Ensure the toolbar is visible
+            self.navigationController?.isToolbarHidden = false
 
     }
     
@@ -43,6 +46,8 @@ class CategoryViewController: UITableViewController {
         
         return cell
     }
+    
+    
     
     //MARK: - TableView Delegate Methods
     
@@ -125,9 +130,13 @@ class CategoryViewController: UITableViewController {
         present(alert, animated: true, completion: nil)
         
     }
-    
 
-    
+
+    @IBAction func miniAppsTapped(_ sender: UIBarButtonItem) {
+        // Perform the segue to the Mini Apps view controller
+        performSegue(withIdentifier: "goToMiniApps", sender: self)
+    }
+
     
     
 }
