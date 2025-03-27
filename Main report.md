@@ -131,7 +131,7 @@ Each sprint follows this cycle:
 ## Design
 
 ### Architecture (MVC)
-For the architecture of the app, I have chosen the Model-View-Controller (MVC) pattern. The **Model** handles the core data logic, storing and retrieving tasks, categories, and reminders. The **View** is responsible for the user interface (UI), displaying tasks and interacting with the user. Finally, the **Controller** acts as a mediator, taking input from the user, interacting with the model, and updating the view accordingly.
+For the architecture of the app, we have chosen the Model-View-Controller (MVC) pattern. The **Model** handles the core data logic, storing and retrieving tasks, categories, and reminders. The **View** is responsible for the user interface (UI), displaying tasks and interacting with the user. Finally, the **Controller** acts as a mediator, taking input from the user, interacting with the model, and updating the view accordingly.
 
 ### Core Data for Storing Tasks
 Core Data is used to persist both tasks and categories. Each task has attributes such as title, description, dueDate, and status (completed or not), and each category is stored with a name and description. Data is stored persistently across app restarts using Core Data’s built-in persistence model.
@@ -165,7 +165,7 @@ The UI was designed with simplicity and usability in mind. The main screen displ
 
 ## Challenges and Solutions
 **Challenge**: Integrating Core Data for the first time was complex, especially managing the relationship between categories and tasks.  
-**Solution**: I carefully followed documentation and tutorials, setting up entities for tasks and categories, ensuring proper relationships were defined. Testing Core Data with mock data helped to validate the structure before final implementation.
+**Solution**: we carefully followed documentation and tutorials, setting up entities for tasks and categories, ensuring proper relationships were defined. Testing Core Data with mock data helped to validate the structure before final implementation.
 
 **Challenge**: Ensuring smooth app performance while syncing large amounts of data across devices.  
 **Solution**: Optimized data fetch operations, added background task support, and limited the amount of data loaded at once.
@@ -174,7 +174,7 @@ The UI was designed with simplicity and usability in mind. The main screen displ
 Testing was done using both unit tests and UI tests. Unit tests ensured that methods like adding, deleting, and updating tasks worked as expected, while UI tests validated the user interactions. Manual testing was conducted to ensure app stability and performance across devices. Automated tests were run during each sprint to catch bugs early.
 
 ## Version Control
-I used GitHub for version control throughout the project. Each new feature was developed on a separate branch, and pull requests were used to merge changes into the main branch after code reviews. Frequent commits helped keep track of changes, and the history can be seen in the GitHub commit log.
+We used GitHub for version control throughout the project. Each new feature was developed on a separate branch, and pull requests were used to merge changes into the main branch after code reviews. Frequent commits helped keep track of changes, and the history can be seen in the GitHub commit log.
 
 ## Development Tools
 - **Xcode**: Primary IDE for iOS development, used for writing Swift code and building the app interface.
