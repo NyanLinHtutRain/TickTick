@@ -79,6 +79,27 @@ Todoey is a task management app designed to help users efficiently organize thei
 ## Sprint Planning
 Based on the user stories provided, tasks were divided into three iterations, with clear estimations of points for each task. Each sprint planned tasks according to their importance and dependencies, ensuring that the core features were prioritized for the first iteration, followed by advanced management features and performance improvements. The sprint planning document, found in the project’s repository, shows how we estimated story points using the Fibonacci sequence to determine effort and complexity.
 
+## Sprint Planning and Progress Charts
+
+Here are some of the key charts and images related to the project:
+
+
+1. **Sprint Planning:**
+   A visual representation of the sprint planning process, including task estimations and priorities.
+   ![Sprint Planning](images/sprintplanning.jpeg)
+
+2. **Burndown Chart:**
+   This chart shows the progress of the tasks completed over time in the sprint.
+   ![Burndown Chart](images/burndownchart.jpeg)
+
+3. **Committed Hours:**
+   This chart illustrates the number of committed hours for the sprint compared to actual hours worked.
+   ![Committed Hours](images/committedhours.jpeg)
+
+4. **Velocity Chart:**
+   This chart displays the velocity of the team in completing tasks over multiple sprints.
+   ![Velocity Chart](images/velocitychart.jpeg)
+
 ## Design
 
 ### Architecture (MVC)
