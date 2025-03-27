@@ -180,14 +180,5 @@ I used GitHub for version control throughout the project. Each new feature was d
 - **Xcode**: Primary IDE for iOS development, used for writing Swift code and building the app interface.
 - **Core Data**: Used for local storage to persist categories and tasks.
 - **GitHub**: Version control for tracking changes and collaboration.
-- **Sigma**: Used for creating UML diagrams to represent the app's architecture and database relationships.
+- **Figma**: Used for creating UML diagrams to represent the app's architecture and database relationships.
 
-## Agile Process
-I followed the SCRUM framework for the development of the Todoey app. The project was divided into 3 iterations, each lasting two weeks. At the start of each iteration, we held sprint planning sessions, and at the end, sprint reviews were conducted to gather feedback and make necessary improvements. Daily stand-up meetings were held to track progress and resolve blockers.
-
-## Images
-Here are some images related to the app's design and development:
-
-![App Screenshot](images/app_screenshot.png)
-
-![UI Design](images/ui_design.png)
