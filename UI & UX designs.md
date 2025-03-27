@@ -10,29 +10,26 @@ The UI design follows these principles:
 ### UI Components  
 
 1. **Home Screen:** Displays task categories with an add button.  
-   - Displays tasks within a selected category.  
-   - Search button to list up the task numbers starting with the letter you type first.  
+   - Home Screen picture and button + picture.  
    ![Home Screen](images/home_screen.jpeg)  
-   ![Home Screen GIF](gifs/home_screen.gif)  
+   ![Add Button](images/add_button.jpeg)  
 
 2. **Task List Screen:** Displays tasks within a selected category.  
    ![Task List Screen](images/task_list_screen.jpeg)  
-   ![Task List Screen GIF](gifs/task_list_screen.gif)  
 
-3. **Task Details & Editing:** Allows users to set task priority and reminders.  
-   ![Task Details](images/task_details.jpeg)  
-   ![Task Details GIF](gifs/task_details.gif)  
+3. **Allow Users to Tick the Finished Tasks:** Users can mark tasks as completed by ticking a checkbox.  
+   ![Tick Finished Tasks](images/tick_finished_tasks.jpeg)  
 
 ## UX Enhancements  
 
-- **Swipe Gestures:** Users can swipe left to delete tasks or categories.  
-   ![Swipe Gestures GIF](gifs/swipe_gestures.gif)  
+- **Swipe and Delete:** Users can swipe left to delete tasks or categories.  
+   ![Swipe and Delete](images/swipe_delete.jpeg)  
 
-- **Drag & Drop:** Users can reorder tasks based on priority.  
-   ![Drag & Drop GIF](gifs/drag_drop.gif)  
-
-- **Dark Mode Support:** For better readability at night.  
-   ![Dark Mode GIF](gifs/dark_mode.gif)  
+- **Search Button:** A search button to filter tasks starting with the letter typed.  
+   ![Search Button](images/search_button.jpeg)  
 
 - **Color Adaptation:** The color changes gently to match the user's mind calmness.  
-   ![Color Adaptation GIF](gifs/color_adaptation.gif)  
+   ![Color Adaptation](images/color_adaptation.jpeg)  
+
+- **Dark Mode Support:** For better readability at night.  
+   ![Dark Mode](images/dark_mode.jpeg)  
