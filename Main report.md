@@ -130,8 +130,12 @@ Each sprint follows this cycle:
 - Final testing and bug fixes
 ## Design
 
-### Architecture (MVC)
-For the architecture of the app, we have chosen the Model-View-Controller (MVC) pattern. The **Model** handles the core data logic, storing and retrieving tasks, categories, and reminders. The **View** is responsible for the user interface (UI), displaying tasks and interacting with the user. Finally, the **Controller** acts as a mediator, taking input from the user, interacting with the model, and updating the view accordingly.
+# Architecture (MVC)
+
+For the architecture of the app, we have chosen the Model-View-Controller (MVC) pattern. The Model handles the core data logic, storing and retrieving tasks, categories, and reminders. The View is responsible for the user interface (UI), displaying tasks and interacting with the user. Finally, the Controller acts as a mediator, taking input from the user, interacting with the model, and updating the view accordingly.
+
+![MVC Architecture](images/MVC.jpeg)
+
 
 ### Core Data for Storing Tasks
 Core Data is used to persist both tasks and categories. Each task has attributes such as title, description, dueDate, and status (completed or not), and each category is stored with a name and description. Data is stored persistently across app restarts using Core Data’s built-in persistence model.
@@ -164,10 +168,23 @@ Below are screenshots showing the **Core Data** model setup in **Xcode**:
 The UI was designed with simplicity and usability in mind. The main screen displays a list of categories, with a button to add new ones. Tapping on a category takes the user to a screen with tasks for that category. Tasks can be added with a "+" button, marked as completed, or deleted with swipe gestures. UI mockups were created using NinjaMock.
 
 ## Challenges and Solutions
-**Challenge**: Integrating Core Data for the first time was complex, especially managing the relationship between categories and tasks.  
-**Solution**: we carefully followed documentation and tutorials, setting up entities for tasks and categories, ensuring proper relationships were defined. Testing Core Data with mock data helped to validate the structure before final implementation.
 
-**Challenge**: Ensuring smooth app performance while syncing large amounts of data across devices.  
+### **Challenge 1**: Integrating Core Data for the First Time  
+Integrating Core Data was our first experience with Apple's persistent data storage solution, and it proved to be more complex than anticipated, especially when managing the relationship between categories and tasks. We initially struggled with setting up entities and relationships, leading to inconsistent data handling and crashes during app runtime.  
+
+**Solution**: To overcome this, we carefully followed official Apple documentation and online tutorials, ensuring we understood how entities should be linked and how to configure relationships correctly. We also leveraged mock data during development to validate the structure before implementation in the app. Through thorough testing, we ensured that data would persist correctly even after app restarts.  
+
+### **Challenge 2**: Cloud Sync Integration Failure  
+One of the key features we wanted to include was Cloud Sync, allowing users to sync their tasks across multiple devices using iCloud. However, we encountered difficulties when trying to implement this feature. Initially, we faced issues with data synchronization—tasks would occasionally fail to sync, or users would see outdated information across devices.
+
+**Solution**: We spent extra time debugging and reviewing Apple's iCloud integration documentation. After several iterations and troubleshooting, we realized that we hadn't fully understood how to handle synchronization conflicts, particularly when multiple devices tried to write to the same data. To resolve this, we implemented a custom conflict resolution method that ensured data consistency across devices. However, due to time constraints and limited testing, we decided to temporarily remove the feature in the final version until we could ensure it was working perfectly.
+
+### **Challenge 3**: User Interface and Usability Feedback  
+During user testing, feedback indicated that some users found the app's interface cluttered, especially when managing multiple categories. Many users struggled with navigation between categories and tasks, leading to confusion and frustration.
+
+**Solution**: In response to the feedback, we redesigned the UI to simplify the layout and enhance navigation. We added a floating action button for quick task creation and introduced category filtering to help users quickly find the tasks they needed. We also implemented a better onboarding flow to guide new users through the app's features. After these changes, user satisfaction significantly improved, and the app became more intuitive.
+
+**Challenge 4**: Ensuring smooth app performance while syncing large amounts of data across devices.  
 **Solution**: Optimized data fetch operations, added background task support, and limited the amount of data loaded at once.
 
 ## Testing
