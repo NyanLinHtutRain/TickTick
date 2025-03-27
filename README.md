@@ -100,6 +100,34 @@ Here are some of the key charts and images related to the project:
    This chart displays the velocity of the team in completing tasks over multiple sprints.
    ![Velocity Chart](images/velocitychart.jpeg)
 
+## Agile Development Approach  
+
+Todoey follows the **SCRUM** methodology, which allows for an iterative and flexible approach to development. The project is divided into **three iterations (sprints)**, with each iteration focusing on implementing a set of user stories.  
+
+Each sprint follows this cycle:  
+
+1. **Sprint Planning:** Tasks are selected from the backlog, and effort is estimated using the Fibonacci sequence.  
+2. **Daily Stand-ups:** Short daily meetings to track progress and resolve blockers.  
+3. **Sprint Execution:** Development and testing of features.  
+4. **Sprint Review:** Demonstration of completed features and gathering feedback.  
+5. **Sprint Retrospective:** Analysis of what went well and areas for improvement.  
+
+## Sprint Breakdown  
+
+### **Sprint 1: Core Features Implementation**  
+- Creating and managing categories  
+- Adding, deleting, and marking tasks as completed  
+- Basic UI implementation  
+
+### **Sprint 2: Advanced Features**  
+- Task prioritization and reminders  
+- UI enhancements  
+- Core Data storage integration  
+
+### **Sprint 3: Performance & Optimization**  
+- Performance tuning  
+- Cloud sync integration  
+- Final testing and bug fixes
 ## Design
 
 ### Architecture (MVC)
