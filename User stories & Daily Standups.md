@@ -1,3 +1,42 @@
+# Todoey - User Stories & Features
+
+| User Story                                              | Estimated Points | Priority    |
+|---------------------------------------------------------|------------------|-------------|
+| **Create Categories**                                   | 3                | High        |
+| As a user, I want to create multiple categories so that I can organize my tasks efficiently. |                  |             |
+| **Delete Categories**                                   | 2                | Low         |
+| As a user, I want to delete categories by swiping so that I can remove unnecessary lists. |                  |             |
+| **View Category Items**                                 | 2                | High        |
+| As a user, I want to tap a category to view its items so that I can manage my tasks within that category. |                  |             |
+| **Add Items to Category**                               | 3                | High        |
+| As a user, I want to add items to a category using a + button so that I can list my tasks. |                  |             |
+| **Delete Items**                                        | 2                | Low         |
+| As a user, I want to swipe and delete items so that I can remove tasks I no longer need. |                  |             |
+| **Mark Items as Completed**                             | 3                | High        |
+| As a user, I want to tick an item to mark it as completed so that I can track finished tasks. |                  |             |
+| **Categorized Item Lists**                              | 3                | High        |
+| As a user, I want my item lists to be neatly arranged under categories so that I can find my tasks without effort. |                  |             |
+| **Item Prioritization**                                 | 3                | High        |
+| As a user, I want to set priority levels (High, Medium, Low) for my items so that I know which tasks are urgent. |                  |             |
+| **Item Reordering**                                     | 5                | Medium      |
+| As a user, I want to drag and reorder my items in a category so that I can organize them based on importance. |                  |             |
+| **Item Notes & Descriptions**                           | 3                | Medium      |
+| As a user, I want to add additional notes or descriptions to my items so that I can provide more context. |                  |             |
+| **Item Reminders**                                      | 5                | High        |
+| As a user, I want to set reminders for my items so that I get notified before deadlines. |                  |             |
+| **Quick Add Widget**                                    | 5                | Medium      |
+| As a user, I want a quick add feature on my home screen so that I can add tasks without opening the app. |                  |             |
+| **Store Categories in Core Data**                       | 5                | High        |
+| As a user, I want my categories to be saved in Core Data so that they persist after closing the app. |                  |             |
+| **Store Items in Core Data**                            | 5                | High        |
+| As a user, I want my items to be saved in Core Data so that I don’t lose my tasks when restarting the app. |                  |             |
+| **Update Item Status in Core Data**                     | 3                | High        |
+| As a user, I want my completed status to be saved in Core Data so that my progress is not lost. |                  |             |
+| **App Launch Performance Optimization**                 | 3                | Medium      |
+| As a user, I want the app to load my tasks quickly so that I can access my lists without delays. |                  |             |
+| **Cloud Sync (Optional Feature)**                       | 8                | Low         |
+| As a user, I want my tasks to sync across multiple devices using iCloud so that I can access them anywhere. |                  |             |
+
 # Daily Stand-ups
 
 ## Iteration 1 (Day 1 to Day 14) 
