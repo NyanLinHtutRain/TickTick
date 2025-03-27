@@ -108,6 +108,30 @@ For the architecture of the app, I have chosen the Model-View-Controller (MVC) p
 ### Core Data for Storing Tasks
 Core Data is used to persist both tasks and categories. Each task has attributes such as title, description, dueDate, and status (completed or not), and each category is stored with a name and description. Data is stored persistently across app restarts using Core Data’s built-in persistence model.
 
+For persistent storage of tasks and categories, we use **Core Data** in the Todoey app. The app's data model is built using Core Data to store and manage both categories and tasks. Here's how the entities are structured:
+
+1. **Category Entity:**
+   - Each category has a `name` attribute to store the category name.
+   - The `items` relationship connects a category to multiple tasks, allowing users to organize tasks under different categories.
+   - The `items` relationship has an inverse relationship, `parentCategory`, which connects each task to its respective category.
+
+2. **Item Entity:**
+   - Each task has a `title` to represent the task's name and a `done` attribute, which is a Boolean value used to mark whether the task is completed.
+   - The `parentCategory` relationship links a task to its parent category, providing organization for the tasks.
+
+### Screenshots of Core Data Model in Xcode
+
+Below are screenshots showing the **Core Data** model setup in **Xcode**:
+
+1. **Data Model Overview:** A screenshot of the entire data model including the entities and their relationships.
+   ![Data Model Overview](images/datamodel_overview.jpeg)
+
+2. **Category Entity:** A detailed view of the Category entity, showing its attributes and relationships.
+   ![Category Entity](images/category_entity.jpeg)
+
+3. **Item Entity:** A detailed view of the Item entity, showing its attributes and relationships.
+   ![Item Entity](images/item_entity.jpeg)
+
 ### UI Design
 The UI was designed with simplicity and usability in mind. The main screen displays a list of categories, with a button to add new ones. Tapping on a category takes the user to a screen with tasks for that category. Tasks can be added with a "+" button, marked as completed, or deleted with swipe gestures. UI mockups were created using NinjaMock.
 
