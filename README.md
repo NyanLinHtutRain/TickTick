@@ -17,10 +17,10 @@ The Todoey app follows the Model-View-Controller (MVC) architectural pattern to 
 Here are some snapshots of the Todoey app interface:  
 
 #### Main Task List  
-![Main Task List](./images/MainTaskList.jpeg)  
+![Main Task List](./images/.jpeg)  
 
 #### Task Details Screen  
-![Task Details](./images/TaskDetails.jpeg)  
+![Task Details](./images/task_list_screen.gif)  
 
 ### Installation  
 Clone the repository using the following command:  
