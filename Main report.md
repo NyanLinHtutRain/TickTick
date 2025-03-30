@@ -5,7 +5,7 @@ Todoey is a task management app designed to help users efficiently organize thei
 
 ## User Stories
 
-### Iteration 1: Basic Todo List Features
+### Iteration 1: Basic Todo List Features (6/2/2025 - 20/2/2025)
 1. **Create Categories**  
    *As a user, I want to create multiple categories so that I can organize my tasks efficiently.*  
    - **Estimation**: 3 points
@@ -30,7 +30,7 @@ Todoey is a task management app designed to help users efficiently organize thei
    *As a user, I want to tick an item to mark it as completed so that I can track finished tasks.*  
    - **Estimation**: 3 points
 
-### Iteration 2: Advanced Item Management (Bullshit Edition)
+### Iteration 2: Advanced Item Management (21/2/2025 - 13/3/2025)
 1. **Categorized Item Lists**  
    *As a user, I want my item lists to be neatly arranged under categories so that I can find my tasks without effort.*  
    - **Estimation**: 3 points
@@ -55,7 +55,7 @@ Todoey is a task management app designed to help users efficiently organize thei
    *As a user, I want a quick add feature on my home screen so that I can add tasks without opening the app.*  
    - **Estimation**: 5 points
 
-### Iteration 3: Core Data & Performance Enhancements
+### Iteration 3: Core Data & Performance Enhancements (14/3/2025 - 31/3/2025)
 1. **Store Categories in Core Data**  
    *As a user, I want my categories to be saved in Core Data so that they persist after closing the app.*  
    - **Estimation**: 5 points
