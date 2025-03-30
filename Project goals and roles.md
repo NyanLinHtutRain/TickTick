@@ -75,4 +75,20 @@ The project follows an agile development methodology, with three main iterations
 ---
 
 ## Available Days Calculation  
-Based on the project timeline, we have allocated sufficient time for planning, development, testing, and deployment to ensure a high-quality final product.  
+
+To effectively plan our project timeline, we calculated the available hours for each team member over the project duration. We considered individual availability per week and used a focus factor to estimate the velocity for each sprint.
+
+Available Hours
+The team consists of two members: Nyan Lin Htut and Kyaw Zaww Linn. Each member's available hours per week were calculated based on their workload and commitment to the project:
+
+Nyan Lin Htut: Varies from 5 to 9 hours per week.
+Kyaw Zaww Linn: Varies from 5 to 8 hours per week.
+Total available hours: Ranges from 10 to 14 hours per week.
+Focus Factor
+We used a focus factor to account for productivity variations during each sprint. The focus factor was calculated based on team efficiency and task complexity:
+
+The focus factor fluctuated between 17% and 133% throughout the project timeline.
+Estimated Velocity
+By multiplying the available hours by the focus factor, we derived the estimated velocity for each sprint. The estimated velocity varied significantly, reflecting the team's variable productivity in different weeks.
+
+This calculation allowed us to plan our iterations effectively, ensuring that our workload was manageable and realistic for each sprint.
