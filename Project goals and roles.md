@@ -2,13 +2,13 @@
 
 ## Roles and Contributions  
 
-### Project Manager & Lead Developer: Nyan Lin Htut  
+### Project Manager & Lead Developer: Nyan Lin Htut (14419795) 
 As the project manager and lead developer, Nyan Lin Htut is responsible for overseeing project planning, managing the development process, and leading the technical implementation of the Todoey app. He is the main contributor to the codebase and takes charge of database integration, ensuring that the application’s data storage and retrieval functions work seamlessly.  
 
-### UI/UX Designer: Kyaw Zaww Linn  
+### UI/UX Designer: Kyaw Zaww Linn  (14430237)
 As the UI/UX designer, Kyaw Zaww Linn is responsible for designing the graphical user interface, conducting user research to understand user needs, and ensuring a good user experience throughout the app. He focuses on creating an intuitive and visually appealing interface that aligns with the app’s functionality.  
 
-### QA Engineer: Kyaw Zaww Linn  
+### QA Engineer: Kyaw Zaww Linn  (14430237)
 In his role as a QA engineer, Kyaw Zaww Linn is responsible for testing the app to identify and resolve issues, ensuring code quality, and maintaining thorough documentation. His efforts ensure that the app functions correctly, performs efficiently, and provides a seamless user experience.  
 
 ---
