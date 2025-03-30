@@ -1,7 +1,5 @@
 # Testing, Deployment & Version Control
 
-# Testing
-
 ## User Stories and Test Cases  
 
 In the Todoey project, we focused on selecting user stories that were essential to the core functionality of the app. We designed test cases to ensure that these features work as expected and to identify any potential issues. Below are the selected user stories and their corresponding test cases.  
