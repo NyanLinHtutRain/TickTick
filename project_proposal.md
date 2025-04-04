@@ -42,5 +42,5 @@ This project, initiated by Nyan Lin Htut and Kyaw Zaww Linn, follows an agile SC
 ### Figma Design
 The app’s interface was designed with simplicity and usability in mind. Below is a screenshot of the wireframe created in Figma by Kyaw Zaww Linn, showcasing the proposed layout:
 
-![Todoey App Wireframe](https://via.placeholder.com/600x400.png?text=Todoey+Wireframe+Screenshot)  
+![Todoey App Wireframe](images/figma_wireframe.png)  
 *Caption: Screenshot of the Todoey app wireframe from Figma, designed by Kyaw Zaww Linn.*
