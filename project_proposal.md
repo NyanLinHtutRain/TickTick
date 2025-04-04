@@ -27,15 +27,3 @@ To visualize the tool’s interface and user experience, a wireframe has been cr
 
 ![TickTick Enhancement Tool Wireframe](https://via.placeholder.com/600x400.png?text=TickTick+Wireframe+Screenshot)
 *Caption: Screenshot of the app wireframe from Figma.*
-
-### Getting Started
-(Instructions for installation, usage, and contribution will be added here as the project develops.)
-
-### Contributions
-We welcome contributions! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file (to be created) for guidelines on how to get involved.
-
-### License
-This project is licensed under the [MIT License](LICENSE) (or specify your preferred license).
-
----
-*Project initiated by [NyanLinHtutRain](https://github.com/NyanLinHtutRain) on April 03, 2025.*
